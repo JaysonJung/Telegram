@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-token='667661067:AAHS-NSuJewUa3mZ9calLXPEQ4eIci1AWDc'
+token='My token'
 method_name='getUpdates'
 url='https://api.telegram.org/bot{}/{}'.format(token,method_name)
 update=requests.get(url).json()
